@@ -1,0 +1,62 @@
+using System;
+
+class Ejercicio2
+{
+    // Función que recibe 2 números enteros y devuelve la suma
+    static int Sumar(int a, int b)
+    {
+        return a + b;
+    }
+
+    // Función que recibe la edad y devuelve un mensaje
+    static string VerificarEdad(int edad)
+    {
+        if (edad >= 18)
+            return "Es mayor de edad.";
+        else
+            return "Es menor de edad.";
+    }
+
+    // Función que recibe el radio y devuelve el área del círculo
+    static double AreaCirculo(double radio)
+    {
+        return Math.PI * radio * radio;
+    }
+
+    // Función que recibe base y altura y devuelve el área del triángulo
+    static double AreaTriangulo(double baseTriangulo, double altura)
+    {
+        return (baseTriangulo * altura) / 2;
+    }
+
+    static void Main()
+    {
+        // Suma de dos números
+        Console.Write("Introduzca el primer número: ");
+        int num1 = int.Parse(Console.ReadLine());
+        Console.Write("Introduzca el segundo número: ");
+        int num2 = int.Parse(Console.ReadLine());
+        int suma = Sumar(num1, num2);
+        Console.WriteLine($"La suma de los dos números es: {suma}\n");
+
+        // Verificar edad
+        Console.Write("Introduzca su edad: ");
+        int edad = int.Parse(Console.ReadLine());
+        string mensajeEdad = VerificarEdad(edad);
+        Console.WriteLine($"{mensajeEdad}\n");
+
+        // Área del círculo
+        Console.Write("Introduzca el radio del círculo: ");
+        double radio = double.Parse(Console.ReadLine());
+        double areaCirculo = AreaCirculo(radio);
+        Console.WriteLine($"El área del círculo es: {areaCirculo:F2}\n");
+
+        // Área del triángulo
+        Console.Write("Introduzca la base del triángulo: ");
+        double baseT = double.Parse(Console.ReadLine());
+        Console.Write("Introduzca la altura del triángulo: ");
+        double altura = double.Parse(Console.ReadLine());
+        double areaTriangulo = AreaTriangulo(baseT, altura);
+        Console.WriteLine($"El área del triángulo es: {areaTriangulo:F2}");
+    }
+}

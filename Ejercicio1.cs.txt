@@ -1,0 +1,38 @@
+using System;
+
+class Ejercicio1
+{
+    static void Main()
+    {
+        Console.Write("¿Cuántos números desea introducir?: ");
+        int n = int.Parse(Console.ReadLine());
+
+        int pares = 0, impares = 0, mayoresA10 = 0, positivos = 0, negativos = 0;
+
+        for (int i = 1; i <= n; i++)
+        {
+            Console.Write($"Introduzca el número {i}: ");
+            int numero = int.Parse(Console.ReadLine());
+
+            if (numero % 2 == 0)
+                pares++;
+            else
+                impares++;
+
+            if (numero > 10)
+                mayoresA10++;
+
+            if (numero > 0)
+                positivos++;
+            else if (numero < 0)
+                negativos++;
+        }
+
+        Console.WriteLine("\n--- Resultados ---");
+        Console.WriteLine($"Cantidad de números pares: {pares}");
+        Console.WriteLine($"Cantidad de números impares: {impares}");
+        Console.WriteLine($"Cantidad de números mayores a 10: {mayoresA10}");
+        Console.WriteLine($"Cantidad de números positivos: {positivos}");
+        Console.WriteLine($"Cantidad de números negativos: {negativos}");
+    }
+}
