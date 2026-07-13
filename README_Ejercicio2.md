@@ -13,10 +13,13 @@ El programa Main() solicita los valores por teclado y muestra los resultados de 
 (Agregar aquí las capturas de pantalla del programa en ejecución)
 
 ### Escenario 1: Suma y área del círculo
-![Escenario 1](ruta_de_la_imagen)
+<img width="925" height="51" alt="Screenshot 2026-07-13 000618" src="https://github.com/user-attachments/assets/113e243f-16cd-4b3a-8105-defabdc2a0c9" />
+
 
 ### Escenario 2: Verificación de edad (mayor y menor de edad)
-![Escenario 2](ruta_de_la_imagen)
+<img width="826" height="52" alt="Screenshot 2026-07-13 000551" src="https://github.com/user-attachments/assets/561fde45-d35a-41fd-ae6a-2605f9ec18fa" />
+
 
 ### Escenario 3: Área del triángulo
-![Escenario 3](ruta_de_la_imagen)
+<img width="921" height="82" alt="Screenshot 2026-07-13 000642" src="https://github.com/user-attachments/assets/f4f0c94f-38bf-4ace-a6a6-7dba1b07ef9a" />
+
