@@ -7,15 +7,4 @@ Programa en C# que permite introducir "n" cantidad de números enteros y determi
 - Cuántos son mayores a 10
 - Cuántos son positivos
 - Cuántos son negativos
-
-## Ejecución en distintos escenarios
-(Agregar aquí las capturas de pantalla del programa en ejecución)
-
-### Escenario 1: Números mixtos (positivos, negativos, pares e impares)
-![Escenario 1](ruta_de_la_imagen)
-
-### Escenario 2: Todos los números positivos
-![Escenario 2](ruta_de_la_imagen)
-
-### Escenario 3: Todos los números negativos
-![Escenario 3](ruta_de_la_imagen)
+<img width="928" height="346" alt="Screenshot 2026-07-12 234320" src="https://github.com/user-attachments/assets/1ccaadee-4201-4bb5-af09-ea91098ddad2" />
