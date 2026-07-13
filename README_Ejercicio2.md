@@ -13,6 +13,9 @@ El programa Main() solicita los valores por teclado y muestra los resultados de 
 (Agregar aquí las capturas de pantalla del programa en ejecución)
 
 ### Escenario 1: Suma y área del círculo
+<img width="899" height="86" alt="Screenshot 2026-07-13 000539" src="https://github.com/user-attachments/assets/58e0fc5c-62ea-4aeb-8e5b-9387f3ed44df" />
+
+
 <img width="925" height="51" alt="Screenshot 2026-07-13 000618" src="https://github.com/user-attachments/assets/113e243f-16cd-4b3a-8105-defabdc2a0c9" />
 
 
